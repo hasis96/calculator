@@ -1,0 +1,33 @@
+.calculatorBase {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(48, 45, 45);
+}
+
+.screen {
+    width: 450px;
+    height: 100px;
+    background-color:rgb(235, 235, 151);
+    align-self: center;
+    justify-self: center;
+    margin: 10px 10px;
+}
+
+.resetButtons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.calculatorButtons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+button {
+    height: 90px;
+}
